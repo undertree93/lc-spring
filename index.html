@@ -1,4 +1,3 @@
-//index.html
 ---
 layout: default
 title: Hello World
@@ -7,6 +6,4 @@ title: Hello World
 <h1>hello world</h1>
 {% for post in site.posts %}
   <a href="{{ site.baseurl }}{{ post.url }}"> {{post.title}}</a>
-  注意site.baseurl 与 post.url中间没有 "/" ,因为post.url自带了"/"
-  
 {% endfor %}
