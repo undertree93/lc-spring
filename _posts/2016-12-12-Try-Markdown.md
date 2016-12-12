@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Using Markdown"
+title:  "Tips using Markdown"
 date:   2016-12-12 13:03:46 -0500
 categories: jekyll 
 ---
 #Markdown level1
-##Level2
+**Level2**
 __Bold__
+>Leon said: Life is short
