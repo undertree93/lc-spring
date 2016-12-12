@@ -4,5 +4,10 @@ title:  "Typical Jekyll Command"
 date:   2016-12-12 15:03:46 -0500
 categories: jekyll 
 ---
-jekyll serve --watch
-<img src="{{ site.baseurl }}/images/2016-12-12/f01.jpg" style="height:200px;"></img>
+<p>jekyll serve --watch</p>
+<p>jekyll serve --detach</p>
+<p>liquid 变量解释：<a href="https://jekyllrb.com/docs/variables/">https://jekyllrb.com/docs/variables/</a></p>
+<p> how to input a url</p>
+{% highlight html %}
+<p><img src="{{ site.baseurl }}/images/{{ page.date | date: "%Y-%m-%d" }}/f01.jpg" style="height:200px;"></img></p>
+{% endhighlight %}
