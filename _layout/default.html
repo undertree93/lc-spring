@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>{{page.title}}</title>
+       <!--  调用page.title变量 -->
+</head>
+
+<body>
+	<main class="container">
+		<div class="wrapper">
+			{{ content }}
+ <!--  调用该模板的文件的主内容全部显示在content里 -->
+		</div>
+	</main>
+
+	{&#37; include sidebar.html &#37;}
+<!--  引用_include/sidebar.html -->
+
+</body>
+</html>
