@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tips using Markdown"
-date:   2016-12-12 13:03:46 -0500
+date:   2016-12-12 13:03:46 
 categories: jekyll 
 ---
 #Markdown level1
