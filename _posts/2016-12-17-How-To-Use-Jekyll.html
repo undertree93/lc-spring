@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "How to setup Jekyll on Github"
+date:   2016-12-17 15:10:46
+categories: jekyll 
+---
+Remote: Setup a github repo
+Local:
+. git init
+. git clone (https://github.com/lukas-h/onepage.git)
+. git remote set-url origin git@github.com:undertree93/lc-leetcode.git
+. git checkout -b gh-pages
+. git push --set-upstream origin gh-pages
+. change _config.yml
+. change projects.xml
+. git commit -am "first time commit"
+. git push
