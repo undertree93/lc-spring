@@ -1,4 +1,5 @@
 baseurl: /lc-spring
+repository: lc-spring/undertree93.github.io
 encoding: utf-8
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown:    kramdown

@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/lc-spring/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/lc-spring/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/lc-spring/" rel="alternate" type="text/html" /><updated>2016-12-12T19:55:47-05:00</updated><id>http://localhost:4000/lc-spring//</id><entry><title type="html">Spring Core Areas</title><link href="http://localhost:4000/lc-spring/spring/general/2016/12/12/Spring-Core-Areas.html" rel="alternate" type="text/html" title="Spring Core Areas" /><published>2016-12-12T19:44:46-05:00</published><updated>2016-12-12T19:44:46-05:00</updated><id>http://localhost:4000/lc-spring/spring/general/2016/12/12/Spring-Core-Areas</id><content type="html" xml:base="http://localhost:4000/lc-spring/spring/general/2016/12/12/Spring-Core-Areas.html">&lt;p&gt;&lt;img src=&quot;/lc-spring/images/2016-12-12/f02.jpg&quot; style=&quot;height:200px;&quot;&gt;&lt;/img&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/lc-spring/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/lc-spring/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/lc-spring/" rel="alternate" type="text/html" /><updated>2016-12-19T09:10:34-05:00</updated><id>http://localhost:4000/lc-spring//</id><entry><title type="html">How to setup Jekyll on Github</title><link href="http://localhost:4000/lc-spring/jekyll/2016/12/17/How-To-Use-Jekyll.html" rel="alternate" type="text/html" title="How to setup Jekyll on Github" /><published>2016-12-17T10:10:46-05:00</published><updated>2016-12-17T10:10:46-05:00</updated><id>http://localhost:4000/lc-spring/jekyll/2016/12/17/How-To-Use-Jekyll</id><content type="html" xml:base="http://localhost:4000/lc-spring/jekyll/2016/12/17/How-To-Use-Jekyll.html">&lt;p&gt;Remote: Setup a github repo
+Local:
+. git init
+. git clone 
+. some repos
+###https://jekyllthemes.io/
+###https://github.com/YOUR-USER/lagom
+###https://github.com/lukas-h/onepage.git
+###https://git@github.com:johnotander/pixyll.git
+###https://github.com/YOUR-USER/travelog-theme
+. git remote set-url origin git@github.com:undertree93/lc-leetcode.git
+. git checkout -b gh-pages
+. git push –set-upstream origin gh-pages
+. change _config.yml
+. change projects.xml
+. git commit -am “first time commit”
+. git push&lt;/p&gt;</content><summary type="html">Remote: Setup a github repo
+Local:
+. git init
+. git clone 
+. some repos
+###https://jekyllthemes.io/
+###https://github.com/YOUR-USER/lagom
+###https://github.com/lukas-h/onepage.git
+###https://git@github.com:johnotander/pixyll.git
+###https://github.com/YOUR-USER/travelog-theme
+. git remote set-url origin git@github.com:undertree93/lc-leetcode.git
+. git checkout -b gh-pages
+. git push –set-upstream origin gh-pages
+. change _config.yml
+. change projects.xml
+. git commit -am “first time commit”
+. git push</summary></entry><entry><title type="html">Spring Core Areas</title><link href="http://localhost:4000/lc-spring/spring/general/2016/12/12/Spring-Core-Areas.html" rel="alternate" type="text/html" title="Spring Core Areas" /><published>2016-12-12T14:44:46-05:00</published><updated>2016-12-12T14:44:46-05:00</updated><id>http://localhost:4000/lc-spring/spring/general/2016/12/12/Spring-Core-Areas</id><content type="html" xml:base="http://localhost:4000/lc-spring/spring/general/2016/12/12/Spring-Core-Areas.html">&lt;p&gt;&lt;img src=&quot;/lc-spring/images/2016-12-12/f02.jpg&quot; style=&quot;height:200px;&quot;&gt;&lt;/img&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;CONTAINER, DEPENDENCY INJECTION, AND IOC&lt;/li&gt;
 &lt;li&gt;ASPECT ORIENTED PROGRAMMING &lt;/li&gt;
@@ -13,7 +45,7 @@ JDBC, TRANSACTIONS AND ORM
 SPRING MVC AND THE WEBPLAYER 
 SECURITY
 MESSAGING
-REST</summary></entry><entry><title type="html">Typical Jekyll Command</title><link href="http://localhost:4000/lc-spring/jekyll/2016/12/12/How-To-Start-Jeykll-Locally.html" rel="alternate" type="text/html" title="Typical Jekyll Command" /><published>2016-12-12T15:03:46-05:00</published><updated>2016-12-12T15:03:46-05:00</updated><id>http://localhost:4000/lc-spring/jekyll/2016/12/12/How-To-Start-Jeykll-Locally</id><content type="html" xml:base="http://localhost:4000/lc-spring/jekyll/2016/12/12/How-To-Start-Jeykll-Locally.html">&lt;p&gt;jekyll serve --watch&lt;/p&gt;
+REST</summary></entry><entry><title type="html">Typical Jekyll Command</title><link href="http://localhost:4000/lc-spring/jekyll/2016/12/12/How-To-Start-Jeykll-Locally.html" rel="alternate" type="text/html" title="Typical Jekyll Command" /><published>2016-12-12T10:03:46-05:00</published><updated>2016-12-12T10:03:46-05:00</updated><id>http://localhost:4000/lc-spring/jekyll/2016/12/12/How-To-Start-Jeykll-Locally</id><content type="html" xml:base="http://localhost:4000/lc-spring/jekyll/2016/12/12/How-To-Start-Jeykll-Locally.html">&lt;p&gt;jekyll serve --watch&lt;/p&gt;
 &lt;p&gt;jekyll serve --detach&lt;/p&gt;
 &lt;p&gt;liquid 变量解释：&lt;a href=&quot;https://jekyllrb.com/docs/variables/&quot;&gt;https://jekyllrb.com/docs/variables/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; how to input a url&lt;/p&gt;
@@ -21,7 +53,7 @@ REST</summary></entry><entry><title type="html">Typical Jekyll Command</title><l
 jekyll serve --detach
 liquid 变量解释：https://jekyllrb.com/docs/variables/
  how to input a url
-&amp;lt;p&amp;gt;&amp;lt;img src=&quot;/lc-spring/images/2016-12-12/f01.jpg&quot; style=&quot;height:200px;&quot;&amp;gt;&amp;lt;/img&amp;gt;&amp;lt;/p&amp;gt;</summary></entry><entry><title type="html">Tips using Markdown</title><link href="http://localhost:4000/lc-spring/jekyll/2016/12/12/Try-Markdown.html" rel="alternate" type="text/html" title="Tips using Markdown" /><published>2016-12-12T13:03:46-05:00</published><updated>2016-12-12T13:03:46-05:00</updated><id>http://localhost:4000/lc-spring/jekyll/2016/12/12/Try-Markdown</id><content type="html" xml:base="http://localhost:4000/lc-spring/jekyll/2016/12/12/Try-Markdown.html">&lt;p&gt;#Markdown level1
+&amp;lt;p&amp;gt;&amp;lt;img src=&quot;/lc-spring/images/2016-12-12/f01.jpg&quot; style=&quot;height:200px;&quot;&amp;gt;&amp;lt;/img&amp;gt;&amp;lt;/p&amp;gt;</summary></entry><entry><title type="html">Tips using Markdown</title><link href="http://localhost:4000/lc-spring/jekyll/2016/12/12/Try-Markdown.html" rel="alternate" type="text/html" title="Tips using Markdown" /><published>2016-12-12T08:03:46-05:00</published><updated>2016-12-12T08:03:46-05:00</updated><id>http://localhost:4000/lc-spring/jekyll/2016/12/12/Try-Markdown</id><content type="html" xml:base="http://localhost:4000/lc-spring/jekyll/2016/12/12/Try-Markdown.html">&lt;p&gt;#Markdown level1
 &lt;strong&gt;Level2&lt;/strong&gt;
 &lt;strong&gt;Bold&lt;/strong&gt;
 &amp;gt;Leon said: Life is short&lt;/p&gt;</content><summary type="html">#Markdown level1
