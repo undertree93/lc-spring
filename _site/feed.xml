@@ -1,13 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/lc-spring/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/lc-spring/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/lc-spring/" rel="alternate" type="text/html" /><updated>2016-12-19T09:10:34-05:00</updated><id>http://localhost:4000/lc-spring//</id><entry><title type="html">How to setup Jekyll on Github</title><link href="http://localhost:4000/lc-spring/jekyll/2016/12/17/How-To-Use-Jekyll.html" rel="alternate" type="text/html" title="How to setup Jekyll on Github" /><published>2016-12-17T10:10:46-05:00</published><updated>2016-12-17T10:10:46-05:00</updated><id>http://localhost:4000/lc-spring/jekyll/2016/12/17/How-To-Use-Jekyll</id><content type="html" xml:base="http://localhost:4000/lc-spring/jekyll/2016/12/17/How-To-Use-Jekyll.html">&lt;p&gt;Remote: Setup a github repo
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/lc-spring/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/lc-spring/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/lc-spring/" rel="alternate" type="text/html" /><updated>2016-12-29T20:45:30-05:00</updated><id>http://localhost:4000/lc-spring//</id><entry><title type="html">Spring Hello World</title><link href="http://localhost:4000/lc-spring/spring/general/2016/12/29/Hello-World.html" rel="alternate" type="text/html" title="Spring Hello World" /><published>2016-12-29T14:44:46-05:00</published><updated>2016-12-29T14:44:46-05:00</updated><id>http://localhost:4000/lc-spring/spring/general/2016/12/29/Hello-World</id><content type="html" xml:base="http://localhost:4000/lc-spring/spring/general/2016/12/29/Hello-World.html">&lt;p&gt;&lt;img src=&quot;/lc-spring/images/2016-12-29/f01.jpg&quot; style=&quot;height:200px;&quot;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;There is only 3 files you need to do for a simple hello world in spring:
+&lt;p&gt; 1. Beans -- These are just POJO files
+&lt;p&gt; 2. config.xml -- just specify how to create these beans in the context. 
+&lt;p&gt; 3. main() -- in here, you create an application context and obtain beans from the context. Then you can do whatever you want.</content><summary type="html">There is only 3 files you need to do for a simple hello world in spring:
+ 1. Beans -- These are just POJO files
+ 2. config.xml -- just specify how to create these beans in the context. 
+ 3. main() -- in here, you create an application context and obtain beans from the context. Then you can do whatever you want.</summary></entry><entry><title type="html">How to setup Jekyll on Github</title><link href="http://localhost:4000/lc-spring/jekyll/2016/12/17/How-To-Use-Jekyll.html" rel="alternate" type="text/html" title="How to setup Jekyll on Github" /><published>2016-12-17T10:10:46-05:00</published><updated>2016-12-17T10:10:46-05:00</updated><id>http://localhost:4000/lc-spring/jekyll/2016/12/17/How-To-Use-Jekyll</id><content type="html" xml:base="http://localhost:4000/lc-spring/jekyll/2016/12/17/How-To-Use-Jekyll.html">&lt;p&gt;Remote: Setup a github repo
 Local:
 . git init
 . git clone 
 . some repos
-###https://jekyllthemes.io/
-###https://github.com/YOUR-USER/lagom
-###https://github.com/lukas-h/onepage.git
+###https://jekyllthemes.io/&lt;/p&gt;
+&lt;p&gt;&amp;lt;a href=https://github.com/sharu725/thunder.git&amp;gt;Thunder&amp;lt;/a&amp;gt;&lt;/p&gt;
+&lt;p&gt;###https://github.com/lukas-h/onepage.git
 ###https://git@github.com:johnotander/pixyll.git
-###https://github.com/YOUR-USER/travelog-theme
+###https://github.com/mattvh/jekyllthemes.git
 . git remote set-url origin git@github.com:undertree93/lc-leetcode.git
 . git checkout -b gh-pages
 . git push –set-upstream origin gh-pages
@@ -20,10 +27,10 @@ Local:
 . git clone 
 . some repos
 ###https://jekyllthemes.io/
-###https://github.com/YOUR-USER/lagom
+&amp;lt;a href=https://github.com/sharu725/thunder.git&amp;gt;Thunder&amp;lt;/a&amp;gt;
 ###https://github.com/lukas-h/onepage.git
 ###https://git@github.com:johnotander/pixyll.git
-###https://github.com/YOUR-USER/travelog-theme
+###https://github.com/mattvh/jekyllthemes.git
 . git remote set-url origin git@github.com:undertree93/lc-leetcode.git
 . git checkout -b gh-pages
 . git push –set-upstream origin gh-pages
