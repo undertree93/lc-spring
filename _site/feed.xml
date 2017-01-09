@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/lc-spring/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/lc-spring/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/lc-spring/" rel="alternate" type="text/html" /><updated>2016-12-29T20:45:30-05:00</updated><id>http://localhost:4000/lc-spring//</id><entry><title type="html">Spring Hello World</title><link href="http://localhost:4000/lc-spring/spring/general/2016/12/29/Hello-World.html" rel="alternate" type="text/html" title="Spring Hello World" /><published>2016-12-29T14:44:46-05:00</published><updated>2016-12-29T14:44:46-05:00</updated><id>http://localhost:4000/lc-spring/spring/general/2016/12/29/Hello-World</id><content type="html" xml:base="http://localhost:4000/lc-spring/spring/general/2016/12/29/Hello-World.html">&lt;p&gt;&lt;img src=&quot;/lc-spring/images/2016-12-29/f01.jpg&quot; style=&quot;height:200px;&quot;&gt;&lt;/img&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/lc-spring/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/lc-spring/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/lc-spring/" rel="alternate" type="text/html" /><updated>2017-01-09T00:09:46-05:00</updated><id>http://localhost:4000/lc-spring//</id><entry><title type="html">Spring JPA with SQL Server</title><link href="http://localhost:4000/lc-spring/spring/general/2017/01/08/spring-JPA-SQL-server.html" rel="alternate" type="text/html" title="Spring JPA with SQL Server" /><published>2017-01-08T23:55:00-05:00</published><updated>2017-01-08T23:55:00-05:00</updated><id>http://localhost:4000/lc-spring/spring/general/2017/01/08/spring-JPA-SQL-server</id><content type="html" xml:base="http://localhost:4000/lc-spring/spring/general/2017/01/08/spring-JPA-SQL-server.html">&lt;p&gt;&lt;img src=&quot;/lc-spring/images/2017-01-08/f01.jpg&quot; style=&quot;height:200px;&quot;&gt;&lt;/img&gt;&lt;/p&gt;
+
+the sequence to generate a spring jpa with sql server is like the following:
+&lt;p&gt;1. pom.xml with sqljdbc4.jar 
+&lt;p&gt;2. specify sql properties in prop files
+&lt;p&gt;3. Entity class (with @Id)
+&lt;p&gt;4. Interface repo implemnts crudrepo and jparepo
+&lt;p&gt;5. EmployeeMgr (@Autowired repo)
+&lt;p&gt;6. MainConfig (which specify the Mgr bean)
+&lt;p&gt;6. You can use it...</content><summary type="html">the sequence to generate a spring jpa with sql server is like the following:
+1. pom.xml with sqljdbc4.jar 
+2. specify sql properties in prop files
+3. Entity class (with @Id)
+4. Interface repo implemnts crudrepo and jparepo
+5. EmployeeMgr (@Autowired repo)
+6. MainConfig (which specify the Mgr bean)
+6. You can use it...</summary></entry><entry><title type="html">Spring java config</title><link href="http://localhost:4000/lc-spring/spring/general/2017/01/03/java-config.html" rel="alternate" type="text/html" title="Spring java config" /><published>2017-01-03T23:51:00-05:00</published><updated>2017-01-03T23:51:00-05:00</updated><id>http://localhost:4000/lc-spring/spring/general/2017/01/03/java-config</id><content type="html" xml:base="http://localhost:4000/lc-spring/spring/general/2017/01/03/java-config.html">&lt;p&gt;&lt;img src=&quot;/lc-spring/images/2017-01-03/f01.jpg&quot; style=&quot;height:200px;&quot;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;There is only one part is important &lt;/p&gt;
+&lt;p&gt; ApplicationContext ctx = SpringApplication.run(Config.class)&lt;/p&gt;</content><summary type="html">There is only one part is important 
+ ApplicationContext ctx = SpringApplication.run(Config.class)</summary></entry><entry><title type="html">Spring Hello World</title><link href="http://localhost:4000/lc-spring/spring/general/2016/12/29/Hello-World.html" rel="alternate" type="text/html" title="Spring Hello World" /><published>2016-12-29T14:44:46-05:00</published><updated>2016-12-29T14:44:46-05:00</updated><id>http://localhost:4000/lc-spring/spring/general/2016/12/29/Hello-World</id><content type="html" xml:base="http://localhost:4000/lc-spring/spring/general/2016/12/29/Hello-World.html">&lt;p&gt;&lt;img src=&quot;/lc-spring/images/2016-12-29/f01.jpg&quot; style=&quot;height:200px;&quot;&gt;&lt;/img&gt;&lt;/p&gt;
 &lt;p&gt;There is only 3 files you need to do for a simple hello world in spring:
 &lt;p&gt; 1. Beans -- These are just POJO files
 &lt;p&gt; 2. config.xml -- just specify how to create these beans in the context. 

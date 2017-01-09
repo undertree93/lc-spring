@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Spring JPA with SQL Server"
+date:   2017-01-08 11:55pm 
+categories: Spring General
+---
+<p><img src="{{ site.baseurl }}/images/2017-01-08/f01.jpg" style="height:200px;"></img></p>
+
+the sequence to generate a spring jpa with sql server is like the following:
+<p>1. pom.xml with sqljdbc4.jar 
+<p>2. specify sql properties in prop files
+<p>3. Entity class (with @Id)
+<p>4. Interface repo implemnts crudrepo and jparepo
+<p>5. EmployeeMgr (@Autowired repo)
+<p>6. MainConfig (which specify the Mgr bean)
+<p>6. You can use it...
